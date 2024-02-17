@@ -1,89 +1,76 @@
 // config.js
 module.exports = {
     github: {
-        username: 'arifszn', // Your GitHub org/user name. (Required)
+        username: 'victorv', // Your GitHub org/user name. (Required)
         sortBy: 'stars', // stars | updated
         limit: 8, // How many projects to display.
         exclude: {
-            forks: false, // Forked projects will not be displayed if set to true.
+            forks: true, // Forked projects will not be displayed if set to true.
             projects: [] // These projects will not be displayed. example: ['my-project1', 'my-project2']
         }
     },
     social: {
-        linkedin: 'ariful-alam',
-        twitter: 'arif_swozon',
+        linkedin: 'victorvedovato',
+        twitter: '10imaging',
         facebook: '',
         dribbble: '',
         behance: '',
         medium: '',
         devto: '',
-        website: 'https://arifszn.github.io',
-        email: 'contact@arifszn.com'
+        website: 'https://vato.dev',
+        email: ''
     },
     skills: [
-        'PHP',
-        'Laravel',
-        'JavaScript',
+        'Git/SVN/CVS',
+        'C/C++',
+        'Rust',
+        'Java',
+        'JavaScript/ECMAscript',
+        'MySQL/SQL/noSQL',
         'React.js',
-        'Vue.js',
         'Node.js',
         'Jquery',
-        'MySQL',
-        'Git',
-        'CSS',
-        'Antd',
-        'Tailwind',
-        'Bootstrap',
+        'Android/Kotlin',
+        'Linux/Kernel/Drivers',
+        'ASM/WASM/X86/ARM/VLIW',
     ],
     experiences: [
         { 
-            company: 'Monstarlab Bangladesh',
-            position: 'Software Engineer',
-            from: 'September 2021',
+            company: 'Venetian Ventures Ltd.',
+            position: 'Founder',
+            from: 'January 2023',
             to: 'Present'
         },
         { 
-            company: 'Orangetoolz - My Offer 360 Degree',
-            position: 'Jr. Full Stack Engineer',
-            from: 'July 2019',
-            to: 'August 2021'
+            company: 'Vital Vector Capital',
+            position: 'CEO',
+            from: 'January 2019',
+            to: 'December 2022'
         },
         { 
-            company: 'Techvillage',
-            position: 'Jr. Software Engineer',
-            from: 'January 2019',
-            to: ' June 2019'
+            company: '10 Imaging Inc.',
+            position: 'CEO',
+            from: 'August 2013',
+            to: 'January 2019'
         }
     ],
     education: [
         { 
-            institution: 'American International University-Bangladesh',
-            degree: 'Bachelor of Science',
-            from: '2015',
-            to: '2019'
-        },
-        { 
-            institution: 'Cantonment College, Jessore',
-            degree: 'Higher Secondary Certificate (HSC)',
-            from: '2012',
-            to: '2014',
-        },
-        { 
-            institution: 'Chowgacha Shahadat Pilot High School',
-            degree: 'Secondary School Certificate (SSC)',
-            from: '2007',
-            to: '2012'
+            institution: 'University of California at San Diego (UCSD)',
+            degree: 'Bachelor of Science in Biochemistry and Cell Biology',
+            from: '1991',
+            to: '1994'
         }
     ],
     blog: {
         // Display blog posts from your medium or dev.to account. (Optional)
-        source: 'dev.to', // medium | dev.to
-        username: 'arifszn',
-        limit: 3 // How many posts to display. Max is 10.
+        // source: 'dev.to', // medium | dev.to
+        // username: 'victorv',
+        // limit: 3 // How many posts to display. Max is 10.
     },
     googleAnalytics: {
         // GA3 tracking id/GA4 tag id
-        id: '' // UA-XXXXXXXXX-X | G-XXXXXXXXXX
+        id: 'G-DJTPTVSTT5' // UA-XXXXXXXXX-X | G-XXXXXXXXXX
     },
     themeConfig: {
         default: 'light',
