@@ -18,7 +18,7 @@ module.exports = {
         medium: '',
         devto: '',
         website: 'https://vato.dev',
-        email: ''
+        email: 'tor@10i.me'
     },
     skills: [
         'Git/SVN/CVS',
@@ -32,24 +32,24 @@ module.exports = {
         'Jquery',
         'Android/Kotlin',
         'Linux/Kernel/Drivers',
-        'ASM/WASM/X86/ARM/VLIW',
+        'ASM/WASM/X86/ARM/VLIW/MIPS/DSP/ISP/VSP/M68K/PPC/6502',
     ],
     experiences: [
-        { 
-            company: 'Venetian Ventures Ltd.',
-            position: 'Founder',
+        {
+            company: 'Venetian Ventures',
+            position: 'Managing Director',
             from: 'January 2023',
             to: 'Present'
         },
         { 
             company: 'Vital Vector Capital',
-            position: 'CEO',
+            position: 'Founder & CEO',
             from: 'January 2019',
             to: 'December 2022'
         },
         { 
             company: '10 Imaging Inc.',
-            position: 'CEO',
+            position: 'CEO & Chief Engineer',
             from: 'August 2013',
             to: 'January 2019'
         }
