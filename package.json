@@ -1,7 +1,8 @@
 {
   "name": "@arifszn/gitprofile",
   "description": "Create an automatic portfolio based on GitHub profile",
-  "version": "2.6.0",
+  "version": "4.0.0",
+  "type": "module",
   "license": "MIT",
   "author": "arifszn",
   "repository": {
@@ -11,35 +12,18 @@
   "bugs": {
     "url": "https://github.com/arifszn/gitprofile/issues"
   },
-  "files": [
-    "dist/gitprofile.es.js",
-    "dist/gitprofile.umd.js",
-    "dist/style.css",
-    "types"
-  ],
-  "main": "./dist/gitprofile.umd.js",
-  "module": "./dist/gitprofile.es.js",
-  "exports": {
-    ".": {
-      "import": "./dist/gitprofile.es.js",
-      "require": "./dist/gitprofile.umd.js"
-    },
-    "./dist/style.css": "./dist/style.css"
-  },
-  "typings": "./types/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "build:library": "vite build --config library.config.js",
-    "lint": "eslint --ext .js,.jsx .",
-    "lint:fix": "eslint --ext .js,.jsx --fix .",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint:fix": "eslint . --fix --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "prettier": "prettier --check \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
-    "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\""
+    "prettier:fix": "prettier --write \"./**/*.{js,jsx,ts,tsx,css,md,json}\"",
+    "preview": "vite preview"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
   },
   "devDependencies": {
     "@arifszn/blog-js": "^2.0.4",
@@ -90,6 +74,7 @@
     "github-pages",
     "github-portfolio",
     "vite-portfolio",
+    "academic-portfolio",
     "github-api"
   ]
 }
