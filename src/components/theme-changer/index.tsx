@@ -1,4 +1,4 @@
-import { RiDice4Line } from 'react-icons/ri';
+import { RiPaletteLine } from 'react-icons/ri';
 import { SanitizedThemeConfig } from '../../interfaces/sanitized-config';
 import { LOCAL_STORAGE_KEY_NAME } from '../../constants';
 import { skeleton } from '../../utils';
@@ -75,7 +75,7 @@ const ThemeChanger = ({
                 tabIndex={0}
                 className="btn btn-ghost m-1 normal-case opacity-50 text-base-content flex items-center whitespace-nowrap"
               >
-                <RiDice4Line className="inline-block w-5 h-5 stroke-current" />
+                <RiPaletteLine className="inline-block w-5 h-5 stroke-current" />
               </div>
               <div
                 tabIndex={0}
